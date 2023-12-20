@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    background-color: #e5e3d9
+
+  
+   
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+img {
+    display: block;
+    /*centers image (with block display */
+    border: double rgb(0, 0, 0) 7px;
+
+    padding: 4px;
+    margin: auto;
+    
+    /*centers imagine with block display */
+
+
+    /* Could be useful for showing picutre borders */
+
+    margin-top: 5px;
+    margin-top: 5px;
+    width:50%; 
+    
+
+}
+img:hover {
+    transform: scale(1.3);
+}
+
+h1 {
+   
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline olive 4px;
+
+}
+/* These will grow the videos when played and make them easier to watch  */
+
+
+.vid {
+    display: block;
+    /*centers image (with block display */
+    border: rgb(0, 0, 0) 5px;
+    border-style: groove ;
+    padding: 5px;
+    margin: auto;
+    
+    /*centers imagine with block display */
+
+
+    /* Could be useful for showing picutre borders */
+
+    margin-top: 5px;
+    margin-top: 5px;
+    width:50%; 
+    
+
+}
+
+.top-line{
+    background-color: saddlebrown;
+    height: 40px ;
+    width: 100%;
+    z-index: 1;
+}
+
+.top-line{
+    position:relative;
+    top: 0;
+}
+.menutext{
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+}
+/* Centers up my stuff */
+.center{
+    width: 50%; 
+    margin: auto;
+}
